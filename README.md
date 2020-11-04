@@ -10,6 +10,6 @@
 
 # 直接使用镜像
 ```bash
-/ > docker pull registry.cn-shanghai.aliyuncs.com/wd_ctf_2020/wdctf_caddy
-/ > docker run -p80:80 -v /html:/srv registry.cn-shanghai.aliyuncs.com/wd_ctf_2020/wdctf_caddy
+docker pull registry.cn-shanghai.aliyuncs.com/wd_ctf_2020/wdctf_caddy
+docker run -p80:80 -v /html:/srv registry.cn-shanghai.aliyuncs.com/wd_ctf_2020/wdctf_caddy
 ```
